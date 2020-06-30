@@ -7,7 +7,7 @@
 \textclass article
 \begin_preamble
 % Variables to change every new document
-\newcommand{\hmwkClass}{Practical Work Report} % Course/class
+\newcommand{\hmwkClass}{SOFTENG 364} % Course/class
 \newcommand{\hmwkNumber}{2} % Assignment number
 
 % Constants to set once
@@ -153,10 +153,6 @@ start
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
