@@ -7,7 +7,7 @@
 \textclass article
 \begin_preamble
 % Variables to change every new document
-\newcommand{\hmwkClass}{SOFTENG 364} % Course/class
+\newcommand{\hmwkClass}{Practical Work Report} % Course/class
 \newcommand{\hmwkNumber}{2} % Assignment number
 
 % Constants to set once
@@ -154,6 +154,131 @@ start
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section*
+Summary
+\end_layout
+
+\begin_layout Section*
+Acknowledgement
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Section
+Company Profile
+\end_layout
+
+\begin_layout Subsection
+Layout of Office
+\end_layout
+
+\begin_layout Standard
+location
+\end_layout
+
+\begin_layout Standard
+where did i work
+\end_layout
+
+\begin_layout Standard
+kitchen
+\end_layout
+
+\begin_layout Standard
+two floors
+\end_layout
+
+\begin_layout Standard
+plants
+\end_layout
+
+\begin_layout Standard
+open office
+\end_layout
+
+\begin_layout Standard
+meeting rooms
+\end_layout
+
+\begin_layout Standard
+small cubicles for alone time
+\end_layout
+
+\begin_layout Subsection
+Staff Organisation and Structure
+\end_layout
+
+\begin_layout Standard
+Teams in poland as well
+\end_layout
+
+\begin_layout Subsection
+Technical Facilities and Amenities
+\end_layout
+
+\begin_layout Standard
+Printer room
+\end_layout
+
+\begin_layout Standard
+Kitchen
+\end_layout
+
+\begin_layout Standard
+Table tennis
+\end_layout
+
+\begin_layout Standard
+Pool table
+\end_layout
+
+\begin_layout Standard
+Tennis/Basketball/Soccer court
+\end_layout
+
+\begin_layout Standard
+Darts
+\end_layout
+
+\begin_layout Standard
+Snacks on Wednesdays and Fridays
+\end_layout
+
+\begin_layout Standard
+End of month drinks + pizza
+\end_layout
+
+\begin_layout Section
+Description of works
+\end_layout
+
+\begin_layout Subsection
+Requirements
+\end_layout
+
+\begin_layout Subsection
+Angular Web development
+\end_layout
+
+\begin_layout Subsection
+Manual Test cases
+\end_layout
+
+\begin_layout Subsection
+Automation Testing
 \end_layout
 
 \end_body
