@@ -177,6 +177,22 @@ LatexCommand tableofcontents
 Introduction
 \end_layout
 
+\begin_layout Standard
+Gentrack Ltd
+\end_layout
+
+\begin_layout Standard
+worked for Veovo
+\end_layout
+
+\begin_layout Standard
+Team of 3 interns
+\end_layout
+
+\begin_layout Standard
+In a larger team of 10
+\end_layout
+
 \begin_layout Section
 Company Profile
 \end_layout
@@ -265,8 +281,25 @@ End of month drinks + pizza
 Description of works
 \end_layout
 
+\begin_layout Standard
+Tax code maintenance and financial code maintenance
+\end_layout
+
 \begin_layout Subsection
 Requirements
+\end_layout
+
+\begin_layout Standard
+After receiving some design documents
+\end_layout
+
+\begin_layout Standard
+have to break down each design into features
+\end_layout
+
+\begin_layout Standard
+Each design should also have user requirements list that is part of the
+ test suite
 \end_layout
 
 \begin_layout Subsection
@@ -275,6 +308,10 @@ Angular Web development
 
 \begin_layout Subsection
 Manual Test cases
+\end_layout
+
+\begin_layout Standard
+As the projects were front end
 \end_layout
 
 \begin_layout Subsection

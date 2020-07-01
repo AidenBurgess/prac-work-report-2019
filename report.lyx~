@@ -265,8 +265,25 @@ End of month drinks + pizza
 Description of works
 \end_layout
 
+\begin_layout Standard
+Tax code maintenance and financial code maintenance
+\end_layout
+
 \begin_layout Subsection
 Requirements
+\end_layout
+
+\begin_layout Standard
+After receiving some design documents
+\end_layout
+
+\begin_layout Standard
+have to break down each design into features
+\end_layout
+
+\begin_layout Standard
+Each design should also have user requirements list that is part of the
+ test suite
 \end_layout
 
 \begin_layout Subsection
@@ -277,8 +294,56 @@ Angular Web development
 Manual Test cases
 \end_layout
 
+\begin_layout Standard
+As the projects were front end
+\end_layout
+
 \begin_layout Subsection
 Automation Testing
+\end_layout
+
+\begin_layout Section
+Reflective appraisal
+\end_layout
+
+\begin_layout Subsection
+Impressions and performance
+\end_layout
+
+\begin_layout Subsection
+Skills Gained
+\end_layout
+
+\begin_layout Standard
+communication skills
+\end_layout
+
+\begin_layout Standard
+leadership skills
+\end_layout
+
+\begin_layout Standard
+agile/scrum workflow
+\end_layout
+
+\begin_layout Subsection
+Lessons learnt
+\end_layout
+
+\begin_layout Standard
+ask for help
+\end_layout
+
+\begin_layout Standard
+work as a team
+\end_layout
+
+\begin_layout Standard
+communication is key
+\end_layout
+
+\begin_layout Section
+Conclusions
 \end_layout
 
 \end_body
