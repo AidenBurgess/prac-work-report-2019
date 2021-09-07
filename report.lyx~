@@ -45,7 +45,7 @@
 % Set up the header and footer
 \pagestyle{fancy}
 \lhead{\hmwkAuthorName} % Top left header
-\rhead{\hmwkClass:\ Assignment\ \#\hmwkNumber}
+\rhead{\hmwkClass}
 \lfoot{\lastxmark} % Bottom left footer
 \cfoot{} % Bottom center footer
 \rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}} % Bottom right footer
@@ -55,7 +55,7 @@
 % The following 2 commands setup the title page
 \title{
 \vspace{2in}
-\textmd{\textbf{\hmwkClass:\ Assignment\ \#\hmwkNumber}}\\
+\textmd{\textbf{\hmwkClass}}\\
 \normalsize\vspace{0.1in}\small{ \today }\\
 \vspace{3in}
 }
@@ -79,7 +79,7 @@
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100 100
@@ -91,7 +91,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 11
 \spacing single
 \use_hyperref false
 \papersize default
@@ -161,12 +161,78 @@ Summary
 \end_layout
 
 \begin_layout Standard
-Worked at gentrack in a team of 3 interns over the period of 2019 Dec -
- 2020 Feb of 12 weeks
+I worked at Gentrack in a team of 3 interns over the period of 2019 Dec
+ - 2020 Feb of 12 weeks.
+ Gentrack is a large airports and utilities company based in New Zealand,
+ with satellite offices in the United Kingdom and Poland.
+ The office in the Auckland CBD is large and spacious, with around 150 employees.
+ There are many amenities such as courts, kitchens and meeting rooms.
+\end_layout
+
+\begin_layout Standard
+My internship consisted of working on two extra pages for the Veovo application,
+ which is the largest product in the airports division.
+ These were Tax Code Maintenance and Financial Code Maintenance.
+ Our internship team was situated in the same area as the main team, to
+ allow easy interaction.
+ We also had a mentor Fernando, who helped onboard the interns and helped
+ with any issues or problems that arose.
+\end_layout
+
+\begin_layout Standard
+The team was working in an Agile environment, so there were daily standups,
+ sprint reviews and retrospectives.
+ Our development process was managed by the Atlassian suite, which handled
+ the creation and tracking of tickets, as well as the git repository and
+ branches.
+\end_layout
+
+\begin_layout Standard
+As my first internship, I learned a lot from this experience.
+ Communication with team members and colleagues was an important experience.
+ This included gaining the confidence to talk at the daily standups and
+ to communicate delays and issues that I discovered.
+ Technically, I learned about an enterprise development process and new
+ technologies.
+ The new technologies I learned were Angular, Typescript, and Cucumber.
+ I also learned about a myriad of testing terminology and processes such
+ as manual, unit and integration test suites.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
 Acknowledgement
+\end_layout
+
+\begin_layout Standard
+I would like to thank Grieg, my temporary manager for helping even though
+ he only started a few weeks earlier than I.
+ He was understanding of our problems and considered all opinions.
+\end_layout
+
+\begin_layout Standard
+I would like to thank my mentor Fernando, for always being diligent in helping
+ us interns learn.
+ He answered our questions quickly no matter how ridiculous.
+\end_layout
+
+\begin_layout Standard
+Sannan and Annie were part of my intern team and were great friends for
+ the internship.
+ I enjoyed working with them and had lots of laughs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -183,19 +249,18 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Gentrack Ltd
+Gentrack Ltd is a large utilities and airports software company which has
+ locations around the world.
+ There business is split into the utilities and aiports sides.
 \end_layout
 
 \begin_layout Standard
-worked for Veovo
-\end_layout
-
-\begin_layout Standard
-Team of 3 interns
-\end_layout
-
-\begin_layout Standard
-In a larger team of 10
+I personally worked for the airports side under the brand Veovo.
+ In a team of three, we specified requirements, developed, tested, debugged
+ the main web product using angular and typescript over the course of 12
+ weeks.
+ I was guided by my teammates and mentors, who taught me the workflow, pair
+ programmed with me, and helped me feel be a part of the team.
 \end_layout
 
 \begin_layout Section
@@ -207,35 +272,68 @@ Layout of Office
 \end_layout
 
 \begin_layout Standard
-location
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename photos/20200207_161254.jpg
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Desk Setup at Office
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-where did i work
+The Gentrack office is located at 17 Hargreaves Street, St Marys Bay, Auckland.
+ It is located near Victoria park and very close to the Auckland Police
+ Station.
+ The New World nearby was a common place to buy lunch.
+ The general office layout is very open, with enclosed rooms reserved for
+ meeting rooms and the CEO's office.
+ There are two types of meeting rooms; small cubicles which could fit 1-2
+ people and used to relax, and larger general purpose meeting rooms often
+ used for standups and presentations.
 \end_layout
 
 \begin_layout Standard
-kitchen
+Another fixture of the office is the use of plants around the office.
+ This improves the atmosphere within the office and relaxes the employees.
+ There are many glass windows which allows light and fresh air inside on
+ hot days.
+ The office building has two levels, the bottom floor occupied by the utilities
+ teams, and the top floor occupied by the airports and accounting teams.
+ I worked on the second floor within the airports development team.
+ Us interns had a row to ourselves and I sat in the middle seat with Annie
+ on my left hand side and Sannan on my right hand side.
 \end_layout
 
 \begin_layout Standard
-two floors
-\end_layout
-
-\begin_layout Standard
-plants
-\end_layout
-
-\begin_layout Standard
-open office
-\end_layout
-
-\begin_layout Standard
-meeting rooms
-\end_layout
-
-\begin_layout Standard
-small cubicles for alone time
+Both the upper and lower levels have kitchens, although the upper level's
+ kitchen is used mainly just for coffee and is smaller than the ground floor.
+ The ground floor kitchen contains microwaves, sinks, coffee machines, a
+ fridge for employee lunches, and a fridge for drinks.
+ It is the area that most employees go to for lunch.
 \end_layout
 
 \begin_layout Subsection
@@ -243,7 +341,56 @@ Staff Organisation and Structure
 \end_layout
 
 \begin_layout Standard
-Teams in poland as well
+Gentrack is a mid-sized company with around 500 employees.
+ There are two main areas of the business, those being utilities and airports.
+ At the time of the internship, the utilities business was the larger venture,
+ although experiencing some trouble with Brexit, as the United Kingdom is
+ their largest customer.
+ There is a team in the United Kingdom for utilities and a Poland team for
+ airports.
+ The utilties business is split into smaller teams such as Velocity.
+ There are two smaller teams in the airports business, of which I was employed
+ in the main product: Veovo.
+\end_layout
+
+\begin_layout Standard
+Due to the relatively small size of the company and teams, the hierarchy
+ structure is quite flat.
+ I even had the opportunity of speaking with the CEO on multiple occasions.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename photos/20191214_221439.jpg
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Selfie with CEO at Christmas Party
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -251,35 +398,30 @@ Technical Facilities and Amenities
 \end_layout
 
 \begin_layout Standard
-Printer room
+On the upper floor, where I was working there were several amenities.
+ A printer room contained printers, paper, shredders, and free stationery
+ to use at work.
+ A small kitchen mainly used for making coffees and tea in the morning was
+ near the printer room.
+ It also had fruits occasionally to choose from.
 \end_layout
 
 \begin_layout Standard
-Kitchen
+The lower floor had a larger kitchen which was used at all times through
+ the day.
+ There was a coffee machine, fridge, and microwaves to prepare lunch.
+ This was the most common place that people had lunch or breakfast at work.
+ There were couches and tables to sit and eat at, but also a pool table
+ and table tennis table to play games.
+ Many functions were also held here throughout my tenure.
+ There was a regular end of month drinks and pizza for the whole office.
+ 
 \end_layout
 
 \begin_layout Standard
-Table tennis
-\end_layout
-
-\begin_layout Standard
-Pool table
-\end_layout
-
-\begin_layout Standard
-Tennis/Basketball/Soccer court
-\end_layout
-
-\begin_layout Standard
-Darts
-\end_layout
-
-\begin_layout Standard
-Snacks on Wednesdays and Fridays
-\end_layout
-
-\begin_layout Standard
-End of month drinks + pizza
+Outside, connected to the kitchen was a large area containing a court that
+ could be used for tennis, basketball and football.
+ There is also an area to play darts.
 \end_layout
 
 \begin_layout Section
@@ -287,7 +429,12 @@ Description of works
 \end_layout
 
 \begin_layout Standard
-Tax code maintenance and financial code maintenance
+The overall aim of the internship was to create two new pages on the Veovo
+ application for tax code maintenance and financial code maintenance.
+ This would be useful to airlines as they could easily update and see the
+ history of tax codes and financial codes.
+ I worked with a team of 3 interns, in a larger team of 10 people who managed
+ the development of Veovo.
 \end_layout
 
 \begin_layout Subsection
@@ -295,20 +442,89 @@ Requirements
 \end_layout
 
 \begin_layout Standard
-After receiving some design documents
+After receiving some design documents, we as a team had to break them into
+ features.
+ These features could also be further broken down, in order to understand
+ the scope and complexity of each task.
+ From the tasks, estimates can be generated and then used to calculate a
+ deadline.
+ Each design should also have a user requirements list that is part of the
+ test suite.
+\end_layout
+
+\begin_layout Subsection
+Agile Process
 \end_layout
 
 \begin_layout Standard
-have to break down each design into features
+Each morning at 8:45 AM there was a standup meeting, where each member of
+ the team discussed what they had done the day before, and what the plan
+ was for the rest of the day.
+ A team member from Poland would often be present as well to share what
+ was being worked on for their team.
+ It was also an opportunity to announce what blocking issues there were,
+ which would be resolved by other team members helping to unblock that task.
+ 
 \end_layout
 
 \begin_layout Standard
-Each design should also have user requirements list that is part of the
- test suite
+One major tool we used to track progress and code was the Atlassian Suite.
+ Specifically, we used Jira, Bitbucket, and Confluence.
+ Jira was used to track tasks and link them to code changes.
+ Bitbucket was used to hold our source code and perform any source code
+ changes.
+ Confluence was used for documentation for the organisation, holding things
+ like meeting minutes, technical documentation, and other helpful information.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename photos/20200207_161426.jpg
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Standup Meeting Room
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Angular Web development
+\end_layout
+
+\begin_layout Standard
+The frontend of the web application for Veovo is written using Typescript
+ under the Angular framework.
+ Angular is the largest web development framework used for enterprise products,
+ followed by React and Vue.
+ The existing code base is large and quite complicated so it took a while
+ to get accustomed to the style and implementation decisions.
+ In order to develop the project, I used the editor VSCode to make code
+ changes.
+ To see the results of my code changes, I served the website locally to
+ test and verify the behaviour.
 \end_layout
 
 \begin_layout Subsection
@@ -316,11 +532,43 @@ Manual Test cases
 \end_layout
 
 \begin_layout Standard
-As the projects were front end
+As the projects were front end, some manual testing had to be completed
+ to verify correctness and functionality.
+ This was an extremely thorough in process, with all aspects of the application
+ needing to be verified.
+ For example, testing night mode, verifying data in the database, making
+ sure text is correct, in right format, in the right place.
+ Two sets of manual tests had to be written for the projects.
+ They were quite simple to write as there were already examples to work
+ off of.
 \end_layout
 
 \begin_layout Subsection
 Automation Testing
+\end_layout
+
+\begin_layout Standard
+Manual test cases can take a lot of time to run, and are therefore expensive
+ as a team member must meticulously look over each step.
+ They are also unreliable, as humans can have lapses in concentration and
+ may skip steps which they think might not be impacted.
+\end_layout
+
+\begin_layout Standard
+Therefore, to reduce the amount of manual test cases, automated testing
+ is implemented for common use cases of Veovo.
+ These also had to be created for the new Tax Code Maintenance and Financial
+ Code Maintenance pages.
+ The test code was written in Gherkin using the Cucumber framework.
+ It utilitises the page object model (POM) which is a design pattern which
+ models common UI elements and their interactions.
+\end_layout
+
+\begin_layout Standard
+When running the tests, it would automatically click buttons, fill inputs,
+ and verify that the data submitted to the server matches what is expected.
+ This process is very entertaining to watch but can be ran in the background
+ for efficiency.
 \end_layout
 
 \begin_layout Section
@@ -331,40 +579,93 @@ Reflective appraisal
 Impressions and performance
 \end_layout
 
+\begin_layout Standard
+Gentrack is a vibrant yet mature software development company that operates
+ in many different fields and countries.
+ The technology being used is constantly updating, although there are still
+ some legacy systems and languages being used such as GenBasic.
+ There is a strong emphasis on testing and robustness of software in the
+ airports section, as shown by the unit, manual and automated test suites
+ as well as committed test engineers on our team.
+\end_layout
+
+\begin_layout Standard
+Employees are treated with respect and nice amenities such as free beers
+ and pizza are provided each month.
+ There is also care taken for clean and effective meeting rooms and events.
+ The lunch break is a time to interact with other members of the company,
+ even if not in the same team.
+\end_layout
+
+\begin_layout Standard
+There was a missed deadline for Tax Code Maintenance by one week, however,
+ by the end of the internship, both projects were completed.
+ This indicates that my performance was good.
+ 
+\end_layout
+
 \begin_layout Subsection
-Skills Gained
+Lessons Learned
 \end_layout
 
 \begin_layout Standard
-communication skills
+From gaining confidence, I learned to ask for help from my mentors, and
+ even reach out to other team members when blocked on an issue.
+ There was a situation where our team discovered that we were not going
+ to be able to deliver the Tax Code Maintenance page within the specified
+ deadline.
+ At this point we had to itemise and create estimates of how long the rest
+ of the changes needed were.
+ We discussed these findings with our manager and decided together to postpone
+ the release of this feature to the next sprint.
 \end_layout
 
 \begin_layout Standard
-leadership skills
+I learned how to work in a team and work together in a team, to perform
+ tasks faster and with a better understanding.
+ This comes from listening to and appreciating the different perspectives
+ and opinions in a team.
+ One of the biggest aspects of being able to code more effectively is debugging.
+ My mentor Fernando showed how to systematically uncover the area of code
+ in which a bug was present.
+ At each level of the application, the data should be checked against the
+ expected value.
+ If this differs, then the logic at this level of the application is faulty.
 \end_layout
 
 \begin_layout Standard
-agile/scrum workflow
-\end_layout
-
-\begin_layout Subsection
-Lessons learnt
-\end_layout
-
-\begin_layout Standard
-ask for help
-\end_layout
-
-\begin_layout Standard
-work as a team
-\end_layout
-
-\begin_layout Standard
-communication is key
+I gained communication skills, both with my peers and other team members.
+ If there is a concern about a project or task, it should be brought up
+ to be discussed and solved.
+ The daily standups at the start were very nerve-wracking, but I gained
+ the confidence to speak with my team.
 \end_layout
 
 \begin_layout Section
 Conclusions
+\end_layout
+
+\begin_layout Standard
+My summer working at Gentrack was a very interesting experience, and my
+ first time working at a software company.
+ 
+\end_layout
+
+\begin_layout Standard
+Compared to university or personal projects, working at Gentrack gave me
+ experience working with other software engineers, which is a very different
+ process.
+ To be effective in a team, a software engineer needs to have the skills
+ to communicate well with other engineers.
+ This can help with deadlines, estimates, and collaboration.
+\end_layout
+
+\begin_layout Standard
+I learnt technical skills from my internship, such as Typescript, Angular
+ and Cucumber for testing.
+ There were many practical parts of testing that I discovered, such as manual,
+ unit, and integration testing.
+ Agile was also interesting to learn about in an actual team environment.
 \end_layout
 
 \end_body
