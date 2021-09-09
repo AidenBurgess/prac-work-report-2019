@@ -161,9 +161,9 @@ Summary
 \end_layout
 
 \begin_layout Standard
-I worked at Gentrack in a team of 3 interns over the period of 2019 Dec
- - 2020 Feb of 12 weeks.
- Gentrack is a large airports and utilities company based in New Zealand,
+I worked at Gentrack in a team of 3 interns for 2019 Dec - 2020 Feb of 12
+ weeks.
+ Gentrack is a large airports and utility company based in New Zealand,
  with satellite offices in the United Kingdom and Poland.
  The office in the Auckland CBD is large and spacious, with around 150 employees.
  There are many amenities such as courts, kitchens and meeting rooms.
@@ -171,32 +171,31 @@ I worked at Gentrack in a team of 3 interns over the period of 2019 Dec
 
 \begin_layout Standard
 My internship consisted of working on two extra pages for the Veovo application,
- which is the largest product in the airports division.
+ the largest product in the airport's division.
  These were Tax Code Maintenance and Financial Code Maintenance.
- Our internship team was situated in the same area as the main team, to
+ Our internship team was situated in the same area as the primary team to
  allow easy interaction.
  We also had a mentor Fernando, who helped onboard the interns and helped
- with any issues or problems that arose.
+ with any issues or problems.
 \end_layout
 
 \begin_layout Standard
-The team was working in an Agile environment, so there were daily standups,
- sprint reviews and retrospectives.
+The team worked in an Agile environment, so there were daily standups, sprint
+ reviews and retrospectives.
  Our development process was managed by the Atlassian suite, which handled
- the creation and tracking of tickets, as well as the git repository and
- branches.
+ the creation and tracking of tickets and the git repository and branches.
 \end_layout
 
 \begin_layout Standard
 As my first internship, I learned a lot from this experience.
- Communication with team members and colleagues was an important experience.
+ Communication with team members and colleagues was a meaningful experience.
  This included gaining the confidence to talk at the daily standups and
- to communicate delays and issues that I discovered.
+ communicating delays and issues that I discovered.
  Technically, I learned about an enterprise development process and new
  technologies.
  The new technologies I learned were Angular, Typescript, and Cucumber.
- I also learned about a myriad of testing terminology and processes such
- as manual, unit and integration test suites.
+ I also learned about various testing terminology and techniques such as
+ manual, unit and integration test suites.
 \end_layout
 
 \begin_layout Standard
@@ -211,15 +210,15 @@ Acknowledgement
 \end_layout
 
 \begin_layout Standard
-I would like to thank Grieg, my temporary manager for helping even though
- he only started a few weeks earlier than I.
+I want to thank Grieg, my temporary manager, for helping even though he
+ only started a few weeks earlier than I.
  He was understanding of our problems and considered all opinions.
 \end_layout
 
 \begin_layout Standard
-I would like to thank my mentor Fernando, for always being diligent in helping
+I want to thank my mentor, Fernando, for always being diligent in helping
  us interns learn.
- He answered our questions quickly no matter how ridiculous.
+ He answered our questions quickly, no matter how ridiculous.
 \end_layout
 
 \begin_layout Standard
@@ -251,16 +250,15 @@ Introduction
 \begin_layout Standard
 Gentrack Ltd is a large utilities and airports software company which has
  locations around the world.
- There business is split into the utilities and aiports sides.
+ Their business is split into the utilities and airports sides.
 \end_layout
 
 \begin_layout Standard
-I personally worked for the airports side under the brand Veovo.
- In a team of three, we specified requirements, developed, tested, debugged
- the main web product using angular and typescript over the course of 12
- weeks.
+I worked for the airport's side under the brand Veovo.
+ We specified requirements in a team of three, developed, tested, and debugged
+ the main web product using angular and typescript over 12 weeks.
  I was guided by my teammates and mentors, who taught me the workflow, pair
- programmed with me, and helped me feel be a part of the team.
+ programmed with me, and helped me feel like a part of the team.
 \end_layout
 
 \begin_layout Section
@@ -312,27 +310,27 @@ The Gentrack office is located at 17 Hargreaves Street, St Marys Bay, Auckland.
  The general office layout is very open, with enclosed rooms reserved for
  meeting rooms and the CEO's office.
  There are two types of meeting rooms; small cubicles which could fit 1-2
- people and used to relax, and larger general purpose meeting rooms often
+ people and used to relax, and larger general-purpose meeting rooms often
  used for standups and presentations.
 \end_layout
 
 \begin_layout Standard
 Another fixture of the office is the use of plants around the office.
  This improves the atmosphere within the office and relaxes the employees.
- There are many glass windows which allows light and fresh air inside on
+ There are many glass windows which allow light and fresh air inside on
  hot days.
- The office building has two levels, the bottom floor occupied by the utilities
- teams, and the top floor occupied by the airports and accounting teams.
- I worked on the second floor within the airports development team.
- Us interns had a row to ourselves and I sat in the middle seat with Annie
- on my left hand side and Sannan on my right hand side.
+ The office building has two levels, the bottom floor occupied by the utility
+ teams and the top floor occupied by the airports and accounting teams.
+ I worked on the second floor within the airport's development team.
+ We, interns, had a row to ourselves, and I sat in the middle seat with
+ Annie on my left-hand side and Sannan on my right-hand side.
 \end_layout
 
 \begin_layout Standard
 Both the upper and lower levels have kitchens, although the upper level's
- kitchen is used mainly just for coffee and is smaller than the ground floor.
+ kitchen is mainly used for coffee and is smaller than the ground floor.
  The ground floor kitchen contains microwaves, sinks, coffee machines, a
- fridge for employee lunches, and a fridge for drinks.
+ fridge for employee lunches and drinks.
  It is the area that most employees go to for lunch.
 \end_layout
 
@@ -343,19 +341,19 @@ Staff Organisation and Structure
 \begin_layout Standard
 Gentrack is a mid-sized company with around 500 employees.
  There are two main areas of the business, those being utilities and airports.
- At the time of the internship, the utilities business was the larger venture,
- although experiencing some trouble with Brexit, as the United Kingdom is
- their largest customer.
+ The utility business was the more significant venture during the internship,
+ although they were experiencing some trouble with Brexit, as the United
+ Kingdom is their largest customer.
  There is a team in the United Kingdom for utilities and a Poland team for
  airports.
- The utilties business is split into smaller teams such as Velocity.
+ The utility business is split into smaller groups such as Velocity.
  There are two smaller teams in the airports business, of which I was employed
  in the main product: Veovo.
 \end_layout
 
 \begin_layout Standard
 Due to the relatively small size of the company and teams, the hierarchy
- structure is quite flat.
+ structure is relatively flat.
  I even had the opportunity of speaking with the CEO on multiple occasions.
  
 \end_layout
@@ -398,28 +396,28 @@ Technical Facilities and Amenities
 \end_layout
 
 \begin_layout Standard
-On the upper floor, where I was working there were several amenities.
+On the upper floor, where I was working, there were several amenities.
  A printer room contained printers, paper, shredders, and free stationery
  to use at work.
- A small kitchen mainly used for making coffees and tea in the morning was
- near the printer room.
+ A small kitchen used primarily for making coffees and tea in the morning
+ was near the printer room.
  It also had fruits occasionally to choose from.
 \end_layout
 
 \begin_layout Standard
-The lower floor had a larger kitchen which was used at all times through
+The lower floor had a larger kitchen which was used at all times throughout
  the day.
  There was a coffee machine, fridge, and microwaves to prepare lunch.
  This was the most common place that people had lunch or breakfast at work.
- There were couches and tables to sit and eat at, but also a pool table
- and table tennis table to play games.
+ There were couches and tables to sit and eat at and a pool table and table
+ tennis table to play games.
  Many functions were also held here throughout my tenure.
- There was a regular end of month drinks and pizza for the whole office.
+ There was the regular end of month drinks and pizza for the whole office.
  
 \end_layout
 
 \begin_layout Standard
-Outside, connected to the kitchen was a large area containing a court that
+Outside, connected to the kitchen, was a large area containing a court that
  could be used for tennis, basketball and football.
  There is also an area to play darts.
 \end_layout
@@ -433,7 +431,7 @@ The overall aim of the internship was to create two new pages on the Veovo
  application for tax code maintenance and financial code maintenance.
  This would be useful to airlines as they could easily update and see the
  history of tax codes and financial codes.
- I worked with a team of 3 interns, in a larger team of 10 people who managed
+ I worked with a team of 3 interns in a larger group of 10 people who managed
  the development of Veovo.
 \end_layout
 
@@ -588,26 +586,26 @@ Automation Testing
 \end_layout
 
 \begin_layout Standard
-Manual test cases can take a lot of time to run, and are therefore expensive
+Manual test cases can take a lot of time to run and are therefore expensive
  as a team member must meticulously look over each step.
  They are also unreliable, as humans can have lapses in concentration and
- may skip steps which they think might not be impacted.
+ may skip steps that they think might not be impacted.
 \end_layout
 
 \begin_layout Standard
-Therefore, to reduce the amount of manual test cases, automated testing
- is implemented for common use cases of Veovo.
+Therefore, to reduce the number of manual test cases, automated testing
+ is implemented for everyday use cases of Veovo.
  These also had to be created for the new Tax Code Maintenance and Financial
  Code Maintenance pages.
  The test code was written in Gherkin using the Cucumber framework.
- It utilitises the page object model (POM) which is a design pattern which
- models common UI elements and their interactions.
+ It utilises the page object model (POM), a design pattern that models common
+ UI elements and their interactions.
 \end_layout
 
 \begin_layout Standard
 When running the tests, it would automatically click buttons, fill inputs,
  and verify that the data submitted to the server matches what is expected.
- This process is very entertaining to watch but can be ran in the background
+ This process is very entertaining to watch but can be run in the background
  for efficiency.
 \end_layout
 
@@ -708,15 +706,14 @@ Conclusions
 \end_layout
 
 \begin_layout Standard
-My summer working at Gentrack was a very interesting experience, and my
- first time working at a software company.
+My summer working at Gentrack was an exciting experience and my first time
+ working at a software company.
  
 \end_layout
 
 \begin_layout Standard
 Compared to university or personal projects, working at Gentrack gave me
- experience working with other software engineers, which is a very different
- process.
+ experience working with other software engineers, which is different.
  To be effective in a team, a software engineer needs to have the skills
  to communicate well with other engineers.
  This can help with deadlines, estimates, and collaboration.
@@ -725,9 +722,11 @@ Compared to university or personal projects, working at Gentrack gave me
 \begin_layout Standard
 I learnt technical skills from my internship, such as Typescript, Angular
  and Cucumber for testing.
- There were many practical parts of testing that I discovered, such as manual,
- unit, and integration testing.
+ I discovered many practical parts of testing, such as manual, unit, and
+ integration testing.
  Agile was also interesting to learn about in an actual team environment.
+ One of the most challenging aspects was interacting and learning in the
+ context of a large existing application.
 \end_layout
 
 \end_body
