@@ -588,26 +588,26 @@ Automation Testing
 \end_layout
 
 \begin_layout Standard
-Manual test cases can take a lot of time to run, and are therefore expensive
+Manual test cases can take a lot of time to run and are therefore expensive
  as a team member must meticulously look over each step.
  They are also unreliable, as humans can have lapses in concentration and
- may skip steps which they think might not be impacted.
+ may skip steps that they think might not be impacted.
 \end_layout
 
 \begin_layout Standard
-Therefore, to reduce the amount of manual test cases, automated testing
- is implemented for common use cases of Veovo.
+Therefore, to reduce the number of manual test cases, automated testing
+ is implemented for everyday use cases of Veovo.
  These also had to be created for the new Tax Code Maintenance and Financial
  Code Maintenance pages.
  The test code was written in Gherkin using the Cucumber framework.
- It utilitises the page object model (POM) which is a design pattern which
- models common UI elements and their interactions.
+ It utilises the page object model (POM), a design pattern that models common
+ UI elements and their interactions.
 \end_layout
 
 \begin_layout Standard
 When running the tests, it would automatically click buttons, fill inputs,
  and verify that the data submitted to the server matches what is expected.
- This process is very entertaining to watch but can be ran in the background
+ This process is very entertaining to watch but can be run in the background
  for efficiency.
 \end_layout
 
