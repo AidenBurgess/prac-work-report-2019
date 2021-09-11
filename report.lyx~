@@ -639,8 +639,8 @@ Tax Code Maintenance
 \end_layout
 
 \begin_layout Standard
-When an airport charges for a service, such as fueling or runway availability,
- the tax codes that are in use are very complex.
+When airports charge for a service, such as fueling or runway availability,
+ the tax codes in use are very complex.
  The companies being charged are from various countries with differing tax
  code applications for different services.
  These charges also change over time (although not frequently), such as
@@ -648,39 +648,32 @@ When an airport charges for a service, such as fueling or runway availability,
  This system needed to be integrated into the current billing functionality
  of the Veovo application.
  Tax codes did exist in the application already, although the users did
- not have a way to edit these on the application itself; rather, the operations
+ not have a way to edit these in the application; instead, the operations
  team made a configuration file for these codes specific for an airport.
 \end_layout
 
 \begin_layout Standard
 The development of this feature required a new page on the frontend, storage
  in the backend, and integration of these two components.
- It also had to be thoroughly tested through the aforementioned testing
+ It also had to be thoroughly tested through the testing mentioned above
  methodologies.
- The integration between the storage and the frontend was handled mostly
- by the existing code generation tools.
- The storage in the backend had to be adjusted manually with the help of
- a senior engineer on the team.
- There already existed an object for tax codes, however, after discussion
+ The integration between the storage and the frontend was handled mainly
+ through the existing code generation tools.
+ The backend storage had to be adjusted manually with the help of a senior
+ engineer on the team.
+ There already existed an object for tax codes; however, after discussion
  with the team and Greig, we decided there would have to be some changes,
- such as adding an 
-\begin_inset Quotes eld
-\end_inset
-
-isInactive
-\begin_inset Quotes erd
-\end_inset
-
- field to disabled tax codes when they became outdated.
+ such as adding an “isInactive” field to disabled tax codes when they became
+ outdated.
 \end_layout
 
 \begin_layout Standard
-The most time consuming aspects of this feature were the frontend and the
+The most time-consuming aspects of this feature were the frontend and the
  testing.
  The frontend consisted of a grid component, with each row containing summary
  information for a tax code.
- Upon clicking the row, a side bar opened with more information and the
- option to edit any fields.
+ Upon clicking the row, a sidebar opened with more details and the option
+ to edit any fields.
  The editing was limited to only those who had permissions for editing tax
  codes.
  The Tax Code Maintenance feature was completed within three sprints (6
@@ -692,7 +685,7 @@ Financial Code Maintenance
 \end_layout
 
 \begin_layout Standard
-Financial codes are used by an airport to label billing activities.
+An airport uses financial codes to label billing activities.
  Again it integrated with the existing billing system in the Veovo application.
  The implementation of this component was very similar to tax code maintenance
  as the frontend page was also a grid component.

@@ -603,7 +603,11 @@ As the projects involved the website, some manual testing had to be completed
 I wrote many manual tests for both Tax Code Maintenance and Financial Code
  Maintenance in a shared spreadsheet on the Microsoft Cloud Suite.
  The tests specified what actions needed to be taken (with each test being
- sequential), and the expected behaviour, as well as the 
+ sequential), the expected outcome of the action taken, and the feature
+ that was under test.
+ These tests were heavily based on existing tests written by the testing
+ engineers on our team Venkat and Harika.
+ 
 \end_layout
 
 \begin_layout Subsection
