@@ -243,6 +243,13 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Introduction
 \end_layout
@@ -271,6 +278,7 @@ Layout of Office
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status collapsed
@@ -286,6 +294,8 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -360,6 +370,7 @@ Due to the relatively small size of the company and teams, the hierarchy
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status collapsed
@@ -375,6 +386,8 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -499,6 +512,15 @@ Each morning at 8:45 AM, there was a standup meeting, where each member
 \end_layout
 
 \begin_layout Standard
+Our team held sprints that lasted two weeks long, with a new release of
+ the application being deployed at the end of the sprint.
+ We also held sprint retrospectives at the end of each sprint to determine
+ what went well and what could have gone better.
+ This aligns with the values of agile, preferring to respond to change rather
+ than following a plan.
+\end_layout
+
+\begin_layout Standard
 One primary tool we used to track progress and code was the Atlassian Suite.
  Specifically, we used Jira, Bitbucket, and Confluence.
  Jira was used to track tasks and link them to code changes.
@@ -511,6 +533,7 @@ One primary tool we used to track progress and code was the Atlassian Suite.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status collapsed
@@ -526,6 +549,8 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -613,8 +638,60 @@ When running the tests, it would automatically click buttons, fill inputs,
 Tax Code Maintenance
 \end_layout
 
+\begin_layout Standard
+When airports charge for a service, such as fueling or runway availability,
+ the tax codes in use are very complex.
+ The companies being charged are from various countries with differing tax
+ code applications for different services.
+ These charges also change over time (although not frequently), such as
+ GST or VAT.
+ This system needed to be integrated into the current billing functionality
+ of the Veovo application.
+ Tax codes did exist in the application already, although the users did
+ not have a way to edit these in the application; instead, the operations
+ team made a configuration file for these codes specific for an airport.
+\end_layout
+
+\begin_layout Standard
+The development of this feature required a new page on the frontend, storage
+ in the backend, and integration of these two components.
+ It also had to be thoroughly tested through the testing mentioned above
+ methodologies.
+ The integration between the storage and the frontend was handled mainly
+ through the existing code generation tools.
+ The backend storage had to be adjusted manually with the help of a senior
+ engineer on the team.
+ There already existed an object for tax codes; however, after discussion
+ with the team and Greig, we decided there would have to be some changes,
+ such as adding an “isInactive” field to disabled tax codes when they became
+ outdated.
+\end_layout
+
+\begin_layout Standard
+The most time-consuming aspects of this feature were the frontend and the
+ testing.
+ The frontend consisted of a grid component, with each row containing summary
+ information for a tax code.
+ Upon clicking the row, a sidebar opened with more details and the option
+ to edit any fields.
+ The editing was limited to only those who had permissions for editing tax
+ codes.
+ The Tax Code Maintenance feature was completed within three sprints (6
+ weeks).
+\end_layout
+
 \begin_layout Subsection
 Financial Code Maintenance
+\end_layout
+
+\begin_layout Standard
+An airport uses financial codes to label billing activities.
+ Again it integrated with the existing billing system in the Veovo application.
+ The implementation of this component was very similar to tax code maintenance
+ as the frontend page was also a grid component.
+ Therefore, from our experience and confidence gained from developing tax
+ code maintenance, the process was completed relatively quickly.
+ Overall it took two sprints (4 weeks) to complete financial code maintenance.
 \end_layout
 
 \begin_layout Section

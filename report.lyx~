@@ -243,6 +243,13 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Introduction
 \end_layout
@@ -256,7 +263,7 @@ Gentrack Ltd is a large utilities and airports software company which has
 \begin_layout Standard
 I worked for the airport's side under the brand Veovo.
  We specified requirements in a team of three, developed, tested, and debugged
- the main web product using angular and typescript over 12 weeks.
+ the main web product using Angular and Typescript over 12 weeks.
  I was guided by my teammates and mentors, who taught me the workflow, pair
  programmed with me, and helped me feel like a part of the team.
 \end_layout
@@ -271,6 +278,7 @@ Layout of Office
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status collapsed
@@ -286,6 +294,8 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -360,6 +370,7 @@ Due to the relatively small size of the company and teams, the hierarchy
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status collapsed
@@ -375,6 +386,8 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -499,6 +512,15 @@ Each morning at 8:45 AM, there was a standup meeting, where each member
 \end_layout
 
 \begin_layout Standard
+Our team held sprints that lasted two weeks long, with a new release of
+ the application being deployed at the end of the sprint.
+ We also held sprint retrospectives at the end of each sprint to determine
+ what went well and what could have gone better.
+ This aligns with the values of agile, preferring to respond to change rather
+ than following a plan.
+\end_layout
+
+\begin_layout Standard
 One primary tool we used to track progress and code was the Atlassian Suite.
  Specifically, we used Jira, Bitbucket, and Confluence.
  Jira was used to track tasks and link them to code changes.
@@ -511,6 +533,7 @@ One primary tool we used to track progress and code was the Atlassian Suite.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status collapsed
@@ -526,6 +549,8 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -613,8 +638,67 @@ When running the tests, it would automatically click buttons, fill inputs,
 Tax Code Maintenance
 \end_layout
 
+\begin_layout Standard
+When an airport charges for a service, such as fueling or runway availability,
+ the tax codes that are in use are very complex.
+ The companies being charged are from various countries with differing tax
+ code applications for different services.
+ These charges also change over time (although not frequently), such as
+ GST or VAT.
+ This system needed to be integrated into the current billing functionality
+ of the Veovo application.
+ Tax codes did exist in the application already, although the users did
+ not have a way to edit these on the application itself; rather, the operations
+ team made a configuration file for these codes specific for an airport.
+\end_layout
+
+\begin_layout Standard
+The development of this feature required a new page on the frontend, storage
+ in the backend, and integration of these two components.
+ It also had to be thoroughly tested through the aforementioned testing
+ methodologies.
+ The integration between the storage and the frontend was handled mostly
+ by the existing code generation tools.
+ The storage in the backend had to be adjusted manually with the help of
+ a senior engineer on the team.
+ There already existed an object for tax codes, however, after discussion
+ with the team and Greig, we decided there would have to be some changes,
+ such as adding an 
+\begin_inset Quotes eld
+\end_inset
+
+isInactive
+\begin_inset Quotes erd
+\end_inset
+
+ field to disabled tax codes when they became outdated.
+\end_layout
+
+\begin_layout Standard
+The most time consuming aspects of this feature were the frontend and the
+ testing.
+ The frontend consisted of a grid component, with each row containing summary
+ information for a tax code.
+ Upon clicking the row, a side bar opened with more information and the
+ option to edit any fields.
+ The editing was limited to only those who had permissions for editing tax
+ codes.
+ The Tax Code Maintenance feature was completed within three sprints (6
+ weeks).
+\end_layout
+
 \begin_layout Subsection
 Financial Code Maintenance
+\end_layout
+
+\begin_layout Standard
+Financial codes are used by an airport to label billing activities.
+ Again it integrated with the existing billing system in the Veovo application.
+ The implementation of this component was very similar to tax code maintenance
+ as the frontend page was also a grid component.
+ Therefore, from our experience and confidence gained from developing tax
+ code maintenance, the process was completed relatively quickly.
+ Overall it took two sprints (4 weeks) to complete financial code maintenance.
 \end_layout
 
 \begin_layout Section
@@ -626,26 +710,26 @@ Impressions and performance
 \end_layout
 
 \begin_layout Standard
-Gentrack is a vibrant yet mature software development company that operates
+Gentrack is a dynamic yet mature software development company that operates
  in many different fields and countries.
- The technology being used is constantly updating, although there are still
- some legacy systems and languages being used such as GenBasic.
+ The technology being used is constantly updating, although some legacy
+ systems and languages are still being used, such as GenBasic.
  There is a strong emphasis on testing and robustness of software in the
- airports section, as shown by the unit, manual and automated test suites
- as well as committed test engineers on our team.
+ airport's section, as shown by the unit, manual and automated test suites,
+ and committed test engineers on our team.
 \end_layout
 
 \begin_layout Standard
-Employees are treated with respect and nice amenities such as free beers
- and pizza are provided each month.
+Employees are treated with respect, and excellent amenities such as free
+ beers and pizza are provided each month.
  There is also care taken for clean and effective meeting rooms and events.
- The lunch break is a time to interact with other members of the company,
- even if not in the same team.
+ The lunch break is a time to interact with other company members, even
+ if not in the same team.
 \end_layout
 
 \begin_layout Standard
-There was a missed deadline for Tax Code Maintenance by one week, however,
- by the end of the internship, both projects were completed.
+There was a missed deadline for Tax Code Maintenance by one week.
+ However, by the end of the internship, I completed both projects.
  This indicates that my performance was good.
  
 \end_layout
@@ -655,25 +739,25 @@ Lessons Learned
 \end_layout
 
 \begin_layout Standard
-From gaining confidence, I learned to ask for help from my mentors, and
- even reach out to other team members when blocked on an issue.
- There was a situation where our team discovered that we were not going
- to be able to deliver the Tax Code Maintenance page within the specified
- deadline.
- At this point we had to itemise and create estimates of how long the rest
+From gaining confidence, I learned to ask for help from my mentors and even
+ reach out to other team members when blocked on an issue.
+ There was a situation where our team discovered that we would not be able
+ to deliver the Tax Code Maintenance page within the specified deadline.
+ At this point, we had to itemise and create estimates of how long the rest
  of the changes needed were.
- We discussed these findings with our manager and decided together to postpone
- the release of this feature to the next sprint.
+ We discussed these findings with our manager and decided to postpone the
+ release of this feature to the next sprint.
 \end_layout
 
 \begin_layout Standard
-I learned how to work in a team and work together in a team, to perform
- tasks faster and with a better understanding.
+I learned how to work in a team and work together to perform tasks faster
+ and with a better understanding.
  This comes from listening to and appreciating the different perspectives
  and opinions in a team.
- One of the biggest aspects of being able to code more effectively is debugging.
- My mentor Fernando showed how to systematically uncover the area of code
- in which a bug was present.
+ One of the most prominent aspects of being able to code more effectively
+ is debugging.
+ My mentor Fernando showed me how to systematically uncover the area of
+ code in which a bug was present.
  At each level of the application, the data should be checked against the
  expected value.
  If this differs, then the logic at this level of the application is faulty.
@@ -693,8 +777,8 @@ Technically, I learned about many new technologies and processes.
  standups, sprint reviews, and retrospectives.
  I learned Angular, Typescript for the frontend code and Cucumber for behavioura
 l driven development testing.
- The testing of the application included manual test cases, unit tests,
- and integration tests, which were new concepts to me.
+ The application testing included manual test cases, unit tests, and integration
+ tests, which were new concepts to me.
  The Atlassian suite taught me the development process in a larger team.
  This required proper branching, breaking down tasks, and estimates for
  tasks.
